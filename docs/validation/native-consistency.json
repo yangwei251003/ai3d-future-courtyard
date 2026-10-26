@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "file": "future_courtyard_v001_blockout.blend",
+      "geometry_animation_material_sha256": "f55c5164d5188295a128660dc9f4206d77576fa2b08e48a1152e2554e522213e",
+      "matches_original": true,
+      "fcurves": 0,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v001_blockout.blend1",
+      "geometry_animation_material_sha256": "f55c5164d5188295a128660dc9f4206d77576fa2b08e48a1152e2554e522213e",
+      "matches_original": true,
+      "fcurves": 0,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v002_geometry.blend",
+      "geometry_animation_material_sha256": "2c53ae8ef783f0e1441610e952cdc5e323308ef5b9ac7290f8382cb3262aee58",
+      "matches_original": true,
+      "fcurves": 0,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v002_geometry.blend1",
+      "geometry_animation_material_sha256": "2c53ae8ef783f0e1441610e952cdc5e323308ef5b9ac7290f8382cb3262aee58",
+      "matches_original": true,
+      "fcurves": 0,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v003_material_animation.blend",
+      "geometry_animation_material_sha256": "6d142172d5e7bd03fcb14595aa2c3863f009a0752ba3c4b9c8199c43266cdc81",
+      "matches_original": true,
+      "fcurves": 132,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v003_material_animation.blend1",
+      "geometry_animation_material_sha256": "6d142172d5e7bd03fcb14595aa2c3863f009a0752ba3c4b9c8199c43266cdc81",
+      "matches_original": true,
+      "fcurves": 132,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v004_export.blend",
+      "geometry_animation_material_sha256": "ea1ce8690c7e3ed76dadca1fa4e842a35643bee49762f3fb6c1397d7d36ae437",
+      "matches_original": true,
+      "fcurves": 132,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    },
+    {
+      "file": "future_courtyard_v004_export.blend1",
+      "geometry_animation_material_sha256": "ea1ce8690c7e3ed76dadca1fa4e842a35643bee49762f3fb6c1397d7d36ae437",
+      "matches_original": true,
+      "fcurves": 132,
+      "text_blocks": 0,
+      "string_properties_checked": 1
+    }
+  ],
+  "all_8_model_fingerprints_match": true,
+  "canonical_glbs_unchanged": true,
+  "metadata_sensitive_findings_after": 0
+}

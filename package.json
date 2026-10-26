@@ -1,0 +1,19 @@
+{
+  "name": "ai3d-future-courtyard-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "node tools/ensure-godot-ignore.mjs",
+    "gltf:inspect:environment": "gltf-transform inspect assets/runtime/future_courtyard_environment.glb",
+    "gltf:inspect:character": "gltf-transform inspect assets/runtime/future_courtyard_character.glb",
+    "gltf:validate": "gltf-transform validate assets/runtime/future_courtyard_environment.glb && gltf-transform validate assets/runtime/future_courtyard_character.glb",
+    "web:build": "npm --prefix web run build",
+    "web:test": "npm --prefix web run test:e2e"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "4.4.2",
+    "@modelcontextprotocol/sdk": "1.25.2",
+    "ajv": "8.17.1",
+    "gltfjsx": "6.5.3"
+  }
+}

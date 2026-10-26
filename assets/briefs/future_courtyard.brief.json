@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "assetId": "future_courtyard",
+  "seed": 42,
+  "units": "meter",
+  "authoring": {
+    "gridM": 0.5,
+    "upAxis": "Z",
+    "characterForward": "-Y"
+  },
+  "world": {
+    "footprintM": [24, 24],
+    "wallCenterM": 10,
+    "modules": [
+      "KIT_WallSolid_4x3",
+      "KIT_WallDoor_4x3",
+      "KIT_WallWindow_4x3",
+      "KIT_Pillar_0p5x3",
+      "KIT_Canopy_4x4"
+    ],
+    "props": [
+      "PROP_Bench",
+      "PROP_Planter",
+      "PROP_Tree",
+      "PROP_BollardLight",
+      "PROP_StreetLamp",
+      "PROP_HoloTerminal",
+      "PROP_Crate",
+      "PROP_Barrier",
+      "PROP_Fountain",
+      "PROP_DronePad"
+    ]
+  },
+  "palette": {
+    "ground": "#262A32",
+    "wall": "#D9D4C8",
+    "accent": "#12D6C5",
+    "metal": "#434B57",
+    "emission": "#FF3EA5",
+    "foliage": "#4FA66A",
+    "player": "#F2EEE3"
+  },
+  "character": {
+    "heightM": 1.8,
+    "clips": [
+      {"name": "Idle_loop", "durationS": 2.0},
+      {"name": "Walk_loop", "durationS": 1.0},
+      {"name": "Run_loop", "durationS": 0.667},
+      {"name": "Jump", "durationS": 1.0}
+    ]
+  },
+  "budgets": {
+    "maxCombinedBytes": 3145728,
+    "maxTriangles": 25000,
+    "maxMaterials": 8,
+    "maxTextures": 0,
+    "maxBones": 15
+  }
+}
+

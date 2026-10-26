@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai3d/schemas/manifest.schema.json",
+  "title": "AI3D Runtime Manifest",
+  "type": "object",
+  "required": ["schemaVersion", "assetId", "checkpointId", "source", "runtime", "toolchain", "contents", "metrics", "provenance", "validation"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "assetId": {"type": "string"},
+    "checkpointId": {"type": "string"},
+    "source": {"type": "object"},
+    "runtime": {"type": "object"},
+    "toolchain": {"type": "object"},
+    "contents": {"type": "object"},
+    "metrics": {"type": "object"},
+    "provenance": {"type": "object"},
+    "validation": {"type": "object"}
+  }
+}
+

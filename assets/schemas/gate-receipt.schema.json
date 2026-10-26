@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai3d/schemas/gate-receipt.schema.json",
+  "title": "AI3D Gate Receipt",
+  "type": "object",
+  "required": ["gateId", "status", "inputHashes", "toolVersions", "assertions", "evidencePaths", "failureCategory", "recoveryFrom"],
+  "properties": {
+    "gateId": {"type": "string", "pattern": "^G[0-7]$"},
+    "status": {"enum": ["pass", "fail"]},
+    "inputHashes": {"type": "object"},
+    "toolVersions": {"type": "object"},
+    "assertions": {"type": "array"},
+    "evidencePaths": {"type": "array", "items": {"type": "string"}},
+    "failureCategory": {"type": ["string", "null"]},
+    "recoveryFrom": {"type": ["string", "null"]}
+  }
+}
+

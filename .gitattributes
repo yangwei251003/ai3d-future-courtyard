@@ -1,0 +1,6 @@
+* -text -filter
+*.blend binary
+*.blend1 binary
+*.glb binary
+*.png binary
+*.mp4 binary

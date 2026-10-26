@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D Production Pipeline"
+  short_description: "Build and verify Blender, Godot, and Web 3D assets"
+  default_prompt: "Use the repository brief and staged gates to build or repair the requested 3D asset without bypassing canonical GLB validation."

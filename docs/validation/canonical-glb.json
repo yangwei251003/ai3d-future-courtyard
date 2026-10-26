@@ -1,0 +1,28 @@
+{
+  "scope": "canonical GLB byte identity and Khronos validation only; no G0-G7 production claim",
+  "files": [
+    {
+      "kind": "environment",
+      "path": "assets/runtime/future_courtyard_environment.glb",
+      "bytes": 387172,
+      "sha256": "6db60185edab993f8a0ce4d286753a70eb4d4eec69bde8929cfa2bb805e27f90",
+      "validator": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 70,
+      "hints": 0
+    },
+    {
+      "kind": "character",
+      "path": "assets/runtime/future_courtyard_character.glb",
+      "bytes": 130128,
+      "sha256": "28e383007f8aed03b409bd48a7c99495c52b9757a3522ad96cffc9d388697a73",
+      "validator": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 13,
+      "hints": 0
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai3d/schemas/brief.schema.json",
+  "title": "AI3D Asset Brief",
+  "type": "object",
+  "required": ["schemaVersion", "assetId", "seed", "units", "world", "palette", "character", "budgets"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "assetId": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "seed": {"type": "integer"},
+    "units": {"const": "meter"},
+    "world": {"type": "object"},
+    "palette": {"type": "object"},
+    "character": {"type": "object"},
+    "budgets": {"type": "object"}
+  },
+  "additionalProperties": true
+}
+
